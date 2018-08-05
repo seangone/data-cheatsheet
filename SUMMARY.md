@@ -12,4 +12,5 @@
 
 * [Basics](machine-learning/basics.md)
 * [PCA](machine-learning/pca.md)
+* [PageRank](machine-learning/pagerank.md)
 
