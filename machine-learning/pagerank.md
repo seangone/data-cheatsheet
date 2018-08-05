@@ -19,7 +19,7 @@ L(Node)是以Node为起点的链接数量。
 
 Revised:
 
-$$PR(A) = (PR(B)/L(B) + PR(C)/L(C) + PR(D)/L(D)) + $$
+$$PR(A) = (PR(B)/L(B) + PR(C)/L(C) + PR(D)/L(D)) * d + (1-d)/N$$
 
 
 
