@@ -14,3 +14,13 @@ PageRank将对页面的链接看成投票，指示了重要性。
 $$PR(A) = PR(B)/L(B) + PR(C)/L(C) + PR(D)/L(D)$$
 
 L(Node)是以Node为起点的链接数量。
+
+- Detail 1 It might happen that L(Node) = 0
+
+Revised:
+
+$$PR(A) = (PR(B)/L(B) + PR(C)/L(C) + PR(D)/L(D)) + $$
+
+
+
+
