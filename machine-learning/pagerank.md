@@ -24,3 +24,8 @@ $$PR(A) = (PR(B)/L(B) + PR(C)/L(C) + PR(D)/L(D)) * d + \frac{1-d}{N}$$
 
 
 
+
+
+
+
+
