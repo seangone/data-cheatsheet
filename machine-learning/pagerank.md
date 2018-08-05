@@ -11,5 +11,4 @@ PageRank将对页面的链接看成投票，指示了重要性。
 
 假设一个由4个页面组成的小团体：A，B，C和D。如果所有页面都链向A，那么A的PR（PageRank）值将是B，C及D的Pagerank总和。
 
-[!s](https://wizardforcel.gitbooks.io/dm-algo-top10/content/img/63d0f703918fa0ec8bc8f8f3259759ee3c6ddbc5.jpg)
-
+$$PR(A) = PR(B) + PR(C) + PR(D)$$
