@@ -52,8 +52,18 @@ Revised:
 
 ## Topic Related PageRank
 
-Random walker has a small probaility of teleporting at any step
+Random walker has a small probability of teleporting at any step
 
+Where a Teleport can go:
+
+- Standard PageRank: Any page with equal probability
+- Topic Specific PageRank: A topic-specific set of "relevant" pages
+
+Idea: Bias the random walk
+
+- When walker teleports, she picks a page from a set S
+- **S contains only pages that are relevant to the topic**
+- For each teleport set S, we get a different vector r S.
 
 
 
