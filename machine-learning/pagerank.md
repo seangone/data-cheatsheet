@@ -46,7 +46,7 @@ Revised:
 
 We assume that one person visit this page that points to itself and randomly go to another random page.
 
-$$PR(A) = (\sum_{p_j is a member of M_{p_i}}{PR(p_j)/L(p_j)}) * d + \frac{1-d}{N}$$
+$$PR(A) = \alpha \sum_{p_j \in M_{p_i}}{\frac{PR(p_j)}{L(p_j)}} + \frac{1-d}{N}$$
 
 
 
