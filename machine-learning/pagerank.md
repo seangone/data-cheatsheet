@@ -33,7 +33,7 @@ $$PR(A) = PR(B)/L(B) + PR(C)/L(C) + PR(D)/L(D)$$
 
 L(Node)是以Node为起点的链接数量。
 
-- Detail 1 It might happen that L(Node) = 0
+- Detail 1 It might happen that L(Node) = 0. The node is called Deadend.
 
 Revised:
 
