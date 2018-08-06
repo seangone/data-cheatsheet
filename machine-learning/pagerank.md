@@ -63,7 +63,7 @@ Idea: Bias the random walk
 
 - When walker teleports, she picks a page from a set S
 - **S contains only pages that are relevant to the topic**
-- For each teleport set S, we get a different vector r S.
+- For each teleport set S, we get a different vector r_S.
 
 
 
