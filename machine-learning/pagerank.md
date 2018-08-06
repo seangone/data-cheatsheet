@@ -20,6 +20,7 @@ Eg.
     - because many pages point to it
 - Your home page can be important
     - if it is pointed to by USC
+    - Links from important pages count more
 
 Explanation:
 
@@ -42,11 +43,16 @@ Extreme cases
 
 Revised:
 
-We assume that one person visit this page that points to itself and randomly go to another random page.
+- We assume that one person visit this page that points to itself and randomly go to another random page.
 
-$$PR(A) = \alpha \sum_{p_j \in M_{p_i}}{\frac{PR(p_j)}{L(p_j)}} + \frac{1-\alpha}{N}$$
+- $$PR(A) = \alpha \sum_{p_j \in M_{p_i}}{\frac{PR(p_j)}{L(p_j)}} + \frac{1-\alpha}{N}$$
 
-$$\alpha$$ is typically 0.85.
+- $$\alpha$$ is typically 0.85.
+
+
+## Topic Related PageRank
+
+Random walker has a small probaility of teleporting at any step
 
 
 
