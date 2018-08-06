@@ -46,7 +46,9 @@ Revised:
 
 We assume that one person visit this page that points to itself and randomly go to another random page.
 
-$$PR(A) = \alpha \sum_{p_j \in M_{p_i}}{\frac{PR(p_j)}{L(p_j)}} + \frac{1-d}{N}$$
+$$PR(A) = \alpha \sum_{p_j \in M_{p_i}}{\frac{PR(p_j)}{L(p_j)}} + \frac{1-\alpha}{N}$$
+
+$$\alpha$$ is typically 0.8.
 
 
 
