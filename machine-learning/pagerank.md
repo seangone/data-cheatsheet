@@ -11,8 +11,15 @@ PageRank将对页面的链接看成投票，指示了重要性。
 
 Key idea: rank pages by linkage too
 
-How many pages point to a page?
-How important these pages are?
+- how many pages that point to a page?
+- how important these pages are?
+
+Eg.
+
+- USC.edu can be important
+    - because many pages point to it
+- Your home page can be important
+    - if it is pointed to by USC
 
 例如网页Y被X1，X2，X3，X4四个网页所链接，且这四个网页的权重分别为0.001，0.01，0.02，0.04，则网页Y的Rank值=0.01+0.02+0.03+0.04=0.071。但问题是，如何获得X1,X2,X3,X4这些网页的权重呢？答案是权重等于这些网页自身的Rank。然而，这些网页的Rank又是通过链接它的网页的权重计算而来，于是就陷入了“鸡与蛋”的怪圈。解决办法是为所有网页设定一个相同的Rank初始值，然后利用迭代的方式来逐步求解。
 
