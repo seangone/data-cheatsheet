@@ -33,14 +33,12 @@ $$PR(A) = PR(B)/L(B) + PR(C)/L(C) + PR(D)/L(D)$$
 
 L(Node)是以Node为起点的链接数量。
 
-- Detail 1 It might happen that L(Node) = 0. The node is called Deadend.
-
-Revised:
-
-$$PR(A) = (PR(B)/L(B) + PR(C)/L(C) + PR(D)/L(D)) * d + \frac{1-d}{N}$$
-
-
-- Detail 2 It might happen that one page points to itself.
+Extreme cases
+- Case 1 Deadend: It might happen that L(Node) = 0.
+    - pagerank can reach to 0 for each page that points to deadends
+    - Revised: $$PR(A) = (PR(B)/L(B) + PR(C)/L(C) + PR(D)/L(D)) * d + \frac{1-d}{N}$$
+- Case 2 Spider trap: It might happen that one page points to itself.
+    - pagerank value of that page can reach to 1 and others become 0.
 
 Revised:
 
